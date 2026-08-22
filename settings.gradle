@@ -13,4 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = 'AlpineTrip2026'
-include ':app'
+include ':AlpineTripAndroid:app'
+project(':AlpineTripAndroid:app').projectDir = file('AlpineTripAndroid/app')
